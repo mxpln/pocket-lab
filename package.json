@@ -1,0 +1,11 @@
+{
+  "name": "pocket-lab",
+  "private": true,
+  "type": "module",
+  "description": "Genre-grounded drum studies with optional Livepilot production lenses",
+  "scripts": {
+    "check": "node scripts/check-static.mjs",
+    "test": "node --test tests/engine.test.mjs"
+  },
+  "engines": { "node": ">=24" }
+}
